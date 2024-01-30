@@ -3372,6 +3372,8 @@ html, body {
   transform: scale(1.5);
 } */
 
+
+
 .scene {
   perspective: 800px;
   display: flex;
@@ -3386,6 +3388,7 @@ html, body {
 }
 
 .cube {
+  
   transform-style: preserve-3d;
   position: relative;
   width: 330px;
