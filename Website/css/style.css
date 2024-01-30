@@ -3358,7 +3358,7 @@ Section Title
 
 
 /* * {
-  box-sizing: border-box;
+  
   transition: 0.5s;
 }
 
@@ -3385,6 +3385,7 @@ html, body {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
+
 }
 
 .cube {
@@ -3397,6 +3398,7 @@ html, body {
   transform-origin: center center;
   
   transform: rotateX(45deg) rotateY(45deg); /* Adjusted initial rotation */
+  
 }
 
 .side {
@@ -3407,6 +3409,7 @@ html, body {
   opacity: 0;
   background-size: contain;
   background-repeat: no-repeat;
+  
 
 }
 
@@ -3429,42 +3432,48 @@ html, body {
   transform: translateZ(-165px) rotateY(180deg); /* Adjusted translation */
   opacity: 1;
   border: 3px solid white;
-  border-radius: 15px;
+  border-radius: 5px;
+  
 }
 
 .left {
   transform: translateX(-165px) rotateY(90deg);
   opacity: 1;
   border: 3px solid white;
-  border-radius: 15px;
+  border-radius: 5px;
+  
 }
 
 .right {
   transform: translateX(165px) rotateY(90deg);
   opacity: 1;
   border: 3px solid white;
-  border-radius: 15px;
+  border-radius: 5px;
+  
 }
 
 .top {
   transform: translateY(-165px) rotateX(90deg);
   opacity: 1;
   border: 3px solid white;
-  border-radius: 15px;
+  border-radius: 5px;
+
 }
 
 .bottom {
   transform: translateY(165px) rotateX(270deg);
   opacity: 1;
   border: 3px solid white;
-  border-radius: 15px;
+  border-radius: 5px;
+  
 }
 
 .front {
   transform: translateZ(165px) rotateY(180deg); /* Adjusted translation */
   opacity: 1;
   border: 3px solid white;
-  border-radius: 15px;
+  border-radius: 5px;
+ 
 }
 
 @keyframes rotate {
