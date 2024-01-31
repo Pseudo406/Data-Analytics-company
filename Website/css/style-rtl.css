@@ -6218,10 +6218,10 @@ Section Title
 .project-block .inner-box:hover .content-box {
   padding-bottom: 0;
 }
-.project-block .inner-box:hover .content-box .title {
+/* .project-block .inner-box:hover .content-box .title {
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
+} */
 .project-block .inner-box:hover .image-box .image:before {
   height: 100%;
   opacity: 1;
