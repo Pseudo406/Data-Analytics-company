@@ -1647,7 +1647,7 @@ img.tp-slider-alternative-image {
     background: #fff
 }
 
-.tparrows {
+/* .tparrows {
     cursor: pointer;
     background: #000;
     background: rgba(0, 0, 0, .5);
@@ -1656,9 +1656,9 @@ img.tp-slider-alternative-image {
     position: absolute;
     display: block;
     z-index: 1000
-}
+} */
 
-.tparrows:hover {
+/* .tparrows:hover {
     background: #000
 }
 
@@ -1669,7 +1669,7 @@ img.tp-slider-alternative-image {
     display: block;
     line-height: 40px;
     text-align: center
-}
+} */
 
 .hginfo,
 .hglayerinfo {
@@ -1677,13 +1677,13 @@ img.tp-slider-alternative-image {
     font-weight: 600
 }
 
-.tparrows.tp-leftarrow:before {
+/* .tparrows.tp-leftarrow:before {
     content: '\e824'
 }
 
 .tparrows.tp-rightarrow:before {
     content: '\e825'
-}
+} */
 
 body.rtl .tp-kbimg {
     left: 0 !important
