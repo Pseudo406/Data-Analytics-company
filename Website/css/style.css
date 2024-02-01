@@ -134,6 +134,15 @@ License: copyright commercial
   color: #7c858c;
 }
 
+.linemark {
+  border-bottom: 1px solid white; /* You can adjust the width and color as needed */
+  width: 1500px; /* Adjust the width to your desired length */
+  margin: 6px auto; /* Center the line horizontally, add space above and below if needed */
+}
+
+
+
+
 body {
   background-color: #fff;
   background-attachment: fixed;
