@@ -153,6 +153,8 @@ var THEMEMASCOT = {};
 		});
 	}
 
+	
+
 	// Testimonial Carousel Two
 	if ($('.testimonial-carousel-two').length) {
 		$('.testimonial-carousel-two').owlCarousel({

@@ -3998,7 +3998,7 @@ html, body {
   -webkit-text-fill-color: #ffffff;
 }
 .feature-block .inner-box:hover:before {
-  width: 100%;
+  width: 1%;
 }
 .feature-block .content {
   position: relative;
