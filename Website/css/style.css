@@ -295,6 +295,14 @@ iframe {
   border: none !important;
 }
 
+.features-section .auto-container .features-column .feature-block .inner-box .content .title a{
+  cursor: default;
+}
+
+.domain-section .auto-container .container .feature-block .content .title a{
+  cursor: default;
+}
+
 /*
  * container.scss
  * -----------------------------------------------
@@ -10680,6 +10688,11 @@ Sidebar
 ==================================================================
 
 ***/
+.main-footer .widgets-section .auto-container .row .social-icon-one .fa-instagram:hover{
+  color: red;
+}
+
+
 .main-footer {
   position: relative;
 }
