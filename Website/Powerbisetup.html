@@ -110,8 +110,8 @@
     <li><a href="page-project-details.html">Project Details</a></li>
     </ul> -->
     </li>
-</li>
-<li><a href="CollectData.html">Services</a></li>
+   </li>
+   <li><a href="CollectData.html">Services</a></li>
     <!-- <li class="dropdown"><a href="news-grid.html">News</a>
     <ul>
     <li><a href="news-grid.html">News Grid</a></li>
@@ -251,18 +251,75 @@ Mon - Sat 8:00 - 6:30, Sunday - CLOSED
 <div class="sidebar-widget service-sidebar-single">
 <div class="sidebar-service-list">
 <ul>
-<li class="current"><a href="CollectData.html"><i class="fas fa-angle-right"></i><span>Collect Datas</span></a></li>
-<li><a href="DataAnalytics.html"><i class="fas fa-angle-right"></i><span>Data Analytics</span></a></li>
-<li ><a href="#Ser14"><i class="fas fa-angle-right"></i><span>Data Visualisation</span></a></li>
-<li><a href="#Ser15"><i class="fas fa-angle-right"></i><span>Dashboards & Reports</span></a></li>
-<li><a href="#Ser16"><i class="fas fa-angle-right"></i><span>Business Insights & Solutions</span></a></li>
-<li><a href="#Ser17"><i class="fas fa-angle-right"></i><span>Power Bi Environmental Setup</span></a></li>
-<li><a href="#Ser17"><i class="fas fa-angle-right"></i><span>Tech Support</span></a></li>
+   <li><a href="CollectData.html"><i class="fas fa-angle-right"></i><span>Collect Data</span></a></li>
+   <li><a href="DataAnalytics.html"><i class="fas fa-angle-right"></i><span>Data Analytics</span></a></li>
+   <li ><a href="DataVisualisation.html"><i class="fas fa-angle-right"></i><span>Data Visualisation</span></a></li>
+   <li><a href="Dashboard&report.html"><i class="fas fa-angle-right"></i><span>Dashboards & Reports</span></a></li>
+   <li><a href="BusinessInsights.html"><i class="fas fa-angle-right"></i><span>Business Insights & Solutions</span></a></li>
+   <li  class="current"><a href="Powerbisetup.html"><i class="fas fa-angle-right"></i><span>Power Bi Environmental Setup</span></a></li>
+   <li><a href="Techsupport.html"><i class="fas fa-angle-right"></i><span>Tech Support</span></a></li>
 </ul>
 </div>
 </div>
+
 </div>
 </div>
+
+<div class="col-lg-8 col-sm-12">
+   <h3 class="text-left mb-2" style="color: whitesmoke;">Our Services</h3>
+   <div class="row">
+      <div class="mb-0">
+         <p style="color: white;">We understand the critical importance of a well-optimized Power BI environment for efficient data analytics and business intelligence. Our experts are here to ensure that your Power BI setup is not just functional but tailored to meet the unique needs of your organization.</p>
+         <p style="color: white;">Optimize your data ecosystem with our Power BI Environmental Setup services, ensuring a seamless integration that maximizes the potential of Microsoft Power BI. Our meticulous approach involves configuring and fine-tuning the Power BI environment to align with your specific business needs.</p>
+      </div>
+   </div>
+   <div class="row iq-pb-45">
+      <div class="col-md-12">
+         <div class="owl-carousel owl-loaded owl-drag" data-dots="true" data-nav="false" data-items="1" data-items-laptop="1" data-items-tab="1" data-items-mobile="1" data-items-mobile-sm="1" data-autoplay="true" data-loop="true" data-margin="30">
+            <div class="consulting-img  text-left"> <img src="../Website/Images/about/04.png" alt="slider"> </div>
+            <div class="consulting-img  text-left"> <img src="../Website/Images/about/05.png" alt="slider"> </div>
+            <div class="consulting-img  text-left"> <img src="../Website/Images/about/06.png" alt="slider"> </div>
+         </div>
+      </div>
+   </div>
+   <div class="row iq-pb-45">
+      <div class="mt-5 mt-lg-0 mt-md-0 col-sm-6">
+         <h4 class="text-left mb-4" style="color: white;"> Infrastructure Configuration:</h4>
+         <div class="text-left">
+            <p style="color: white;">We assess your existing infrastructure and recommend or configure the right setup for your Power BI deployment, whether it's on-premises, cloud-based, or a hybrid solution.</p>
+         </div>
+      </div>
+      <div class="mt-5 mt-lg-0 mt-md-0 col-sm-6">
+         <h4 class="text-left mb-4" style="color: white;">Gateway Installation and Configuration:</h4>
+         <div class="text-left">
+            <p style="color: white;">Setting up gateways is essential for connecting Power BI to on-premises data sources. We handle the installation and configuration of gateways to establish secure connections.</p>
+         </div>
+      </div>
+   </div>
+   <div class="row iq-pb-45">
+      <div class="mt-5 mt-lg-0 mt-md-0 col-sm-6">
+         <h4 class="text-left mb-4" style="color: white;">Security Measures:</h4>
+         <div class="text-left">
+            <p style="color: white;">Security is paramount. We implement role-based access control, encryption, and other security measures to safeguard your data and ensure compliance.</p>
+         </div>
+      </div>
+      <div class="mt-5 mt-lg-0 mt-md-0 col-sm-6">
+         <h4 class="text-left mb-4" style="color: white;"> Data Source Integration:</h4>
+         <div class="text-left">
+            <p style="color: white;">We ensure seamless integration with various data sources, be it databases, cloud services, or other applications, to provide a unified and comprehensive data view.</p>
+         </div>
+      </div>
+   </div>
+
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -367,5 +424,32 @@ Mon - Sat 8:00 - 6:30, Sunday - CLOSED
 <script src="js/swiper.min.js"></script>
 <script src="js/owl.js"></script>
 <script src="js/script.js"></script>
+<script>
+   const data = {
+       datasets: [{
+           data: [60,40],
+           backgroundColor: [
+               "#fe6c61",
+               "#5471d2"
+           ],
+       }],
+       labels: [
+           'One',
+           'Two',
+       ]
+   };
+   var ctx = $('#canvas');
+   var myPieChart = new Chart(ctx, {
+       type: 'pie',
+       data: data,
+       options: {
+           maintainAspectRatio: false,
+           legend: {
+               display: false,
+           }
+       }
+   });
+   document.getElementById('js-legend').innerHTML = myPieChart.generateLegend();
+</script>
 </body>
 </html>
