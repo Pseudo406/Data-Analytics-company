@@ -106,14 +106,26 @@ License: copyright commercial
  * typography.scss
  * -----------------------------------------------
 */
+.profileimg{
+  width: 209px;
+  border-image: round;
+  position: absolute;
+  top: 951px;
+  left: 1652px;
+}
 
 .ovverr img{
   margin-top: -216px;
   position: relative;
   width: 1162px;
-  margin-right: 621px;
+  margin-right: 873px;
 
- 
+}
+.bc-iphone{
+  width: 236px;
+  position: absolute;
+  top: 892px;
+  left: 1639px;
 }
 
  #ACCB2{
@@ -139,7 +151,7 @@ License: copyright commercial
   width: 103%;
   height: 609px;
   margin-top: -133px;
-  margin-left: -670px;
+  margin-left: -725px;
 }
 
 .accordion_images {
