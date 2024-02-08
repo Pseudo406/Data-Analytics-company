@@ -106,6 +106,126 @@ License: copyright commercial
  * typography.scss
  * -----------------------------------------------
 */
+
+.ovverr img{
+  margin-top: -216px;
+  position: relative;
+  width: 1162px;
+  margin-right: 621px;
+
+ 
+}
+
+ #ACCB2{
+  margin-left: 60px;
+  width: 80%;
+}
+
+.project-details{
+  height: 700px;
+}
+.row_flex {
+  display: flex;
+  gap: 15px;
+}
+
+@media (min-width: 768px) {
+  .row_inner {
+    width: 50%;
+  }
+}
+
+.row_inner img {
+  width: 103%;
+  height: 609px;
+  margin-top: -133px;
+  margin-left: -670px;
+}
+
+.accordion_images {
+  position: absolute;
+  top: 642px;
+  right: -500px;
+}
+
+@media (max-width: 767px) {
+  .accordion_images {
+    display: none;
+  }
+}
+
+.accordion_images img {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.accordion_images img:not(:first-child) {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.accordion_images img.active {
+  opacity: 1;
+}
+
+.accordion {
+  width: 60%;
+  overflow: hidden;
+  margin-top: 20px;
+  background-color: #2d095c;
+}
+
+.accordion_intro {
+  position: relative;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.accordion_content {
+  color: white;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  will-change: max-height;
+  transition: all 0.25s ease-out;
+  opacity: 0;
+}
+
+.accordion_image {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .accordion_image {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.acco,
+.bacco {
+  margin: 0;
+  line-height: 1;
+}
+
+.acco {
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.bacco{
+  color: white;
+  font-size: 15px;
+  margin: 0;
+}
+
+.accordion_active .accordion_content {
+  padding: 0 20px 20px;
+  opacity: 1;
+}
+
 ::-moz-selection {
   background: var(--theme-color3);
   color: #fff;
@@ -8526,6 +8646,27 @@ Page Title
   .page-title {
     padding: 180px 0 120px;
   }
+  #ACCB2{
+    padding: 0px;
+    margin-left:10px ;
+    width: 100%;
+  }
+  .acco{
+    padding: 0px;
+    text-align: center;
+   
+  }
+  .ovverr img{display: none;}
+
+  .accordion_content{
+    height: 150px;
+   /* overflow: auto; */
+    text-justify: newspaper;
+  }
+  .bacco{
+    padding:0px;
+    width: 100%;
+  }
 }
 .page-title:before {
   position: absolute;
@@ -9480,7 +9621,7 @@ Page Title
 }
 .project-details__pagination li a {
   font-size: 14px;
-  color: #757873;
+  color: white;
   font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
