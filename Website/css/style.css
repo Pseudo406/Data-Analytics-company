@@ -107,25 +107,31 @@ License: copyright commercial
  * -----------------------------------------------
 */
 .profileimg{
-  width: 209px;
+  width: 141px;
   border-image: round;
   position: absolute;
-  top: 951px;
-  left: 1652px;
+  top: 830px;
+  left: 1412px;
 }
 
 .ovverr img{
-  margin-top: -216px;
+  margin-top: 25px;
   position: relative;
-  width: 1162px;
-  margin-right: 873px;
+  width: 1022px;
+  margin-right: 1042px;
+  z-index: -1;
 
 }
 .bc-iphone{
-  width: 236px;
+  width: 184px;
   position: absolute;
-  top: 892px;
-  left: 1639px;
+  top: 788px;
+  left: 1375px;
+  z-index: 0;
+}
+
+.dashu11{
+  
 }
 
  #ACCB2{
@@ -148,16 +154,18 @@ License: copyright commercial
 }
 
 .row_inner img {
-  width: 103%;
-  height: 609px;
-  margin-top: -133px;
-  margin-left: -725px;
+  width: 92%;
+  height: 496px;
+  margin-top: -115px;
+  margin-left: -726px;
+  z-index: 1;
 }
 
 .accordion_images {
   position: absolute;
   top: 642px;
   right: -500px;
+  z-index: -1;
 }
 
 @media (max-width: 767px) {
