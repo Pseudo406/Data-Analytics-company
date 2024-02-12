@@ -154,17 +154,19 @@ License: copyright commercial
 }
 
 .row_inner img {
-  width: 92%;
-  height: 496px;
+  width: 84%;
+  height: 500px;
   margin-top: -115px;
-  margin-left: -726px;
+  margin-left: -675px;
   z-index: 1;
 }
+
+
 
 .accordion_images {
   position: absolute;
   top: 642px;
-  right: -500px;
+  right: -450px;
   z-index: -1;
 }
 
@@ -3743,6 +3745,7 @@ html, body {
 ====================================================================
 
 ***/
+
 .banner-section {
   position: relative;
 }
